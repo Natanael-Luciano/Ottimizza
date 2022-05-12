@@ -1,6 +1,6 @@
 
 public class questao1 {
-	static void returnDate(String dates[]){
+	static String returnDate(String dates[]){
 		int i = dates.length;
 		String[] resposta = new String[i];
 		int counter = 0;
@@ -39,7 +39,7 @@ public class questao1 {
         }
   	 
         System.out.println(resposta);
-        
+        return resposta;
 	}
 
   public static void main(String[] args) {
